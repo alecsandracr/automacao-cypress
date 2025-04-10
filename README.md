@@ -25,14 +25,14 @@ automacao-cypress/ ├── cypress/ │ ├── downloads/ │ ├── e2e
 
 ### ✅ RadioButton
 - Selecionar a opção "Yes" e validar que foi marcada corretamente.
--Selecionar a opção "Impressive" e validar que foi marcada corretamente.
--Verificar que a opção "No" está desabilitada para interação do usuário.
+- Selecionar a opção "Impressive" e validar que foi marcada corretamente.
+- Verificar que a opção "No" está desabilitada para interação do usuário.
 
 ### ✅ WebTables
--Validar se um registro específico (ex: "Cierra Vega") está presente na tabela com todos os dados.
--Realizar o cadastro de um novo registro e verificar se ele aparece na tabela.
--Excluir um registro existente e validar que ele foi removido corretamente da tabela.
--Editar um registro e confirmar que os dados foram atualizados com sucesso.
+- Validar se um registro específico (ex: "Cierra Vega") está presente na tabela com todos os dados.
+- Realizar o cadastro de um novo registro e verificar se ele aparece na tabela.
+- Excluir um registro existente e validar que ele foi removido corretamente da tabela.
+- Editar um registro e confirmar que os dados foram atualizados com sucesso.
 
 ## ▶️ Como Executar os Testes
 
