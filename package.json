@@ -1,0 +1,25 @@
+{
+  "name": "automacao-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:chrome": "npx cypress open --browser chrome",
+    "cy:run:chrome": "npx cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecsandracr/automacao-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alecsandracr/automacao-cypress/issues"
+  },
+  "homepage": "https://github.com/alecsandracr/automacao-cypress#readme",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  }
+}
