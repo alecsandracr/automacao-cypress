@@ -1,7 +1,12 @@
 describe('Interagindo com Radio Button', () => {
 
-    it('Verificar se a opção "Yes" é selecionada ao ser clicada', () => {
+    beforeEach( () => {
+        //Arrange
         cy.visit('https://demoqa.com/radio-button')
+
+    })
+
+    it('Verificar se a opção "Yes" é selecionada ao ser clicada', () => {
 
         cy.get('label[for="yesRadio"]').click() // Clica no label associado ao "Yes"
 
@@ -9,17 +14,17 @@ describe('Interagindo com Radio Button', () => {
     })
 
     it('Verificar se a opção "Impressive" é selecionada ao ser clicada', () => {
-        cy.visit('https://demoqa.com/radio-button')
 
         cy.get('label[for="impressiveRadio"]').click()
 
-        cy.get('#impressiveRadio').should('be.checked') 
+        cy.get('#impressiveRadio').should('be.checked')
 
     })
 
     it('Verificar se a opção "No" está desabilitada para interação do usuário', () => {
-        cy.visit('https://demoqa.com/radio-button')
-        
+
+        cy.reload()
+
         cy.get('#noRadio').should('be.disabled')
 
     })
